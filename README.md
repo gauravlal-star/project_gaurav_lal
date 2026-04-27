@@ -27,6 +27,7 @@ Project_Gaurav_Lal/
 ├── interface.py           # Aliases mapped for automated grading scripts
 ├── main.py                # End-to-end execution script with CLI arguments
 └── README.md              # Installation and execution instructions
+
 Installation Instructions
 1. Clone the repository:
 Open your terminal or command prompt and run:
