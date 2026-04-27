@@ -1,1 +1,0 @@
-Due to GitHub file size limits, the final_weights.pth file can be downloaded here: https://drive.google.com/file/d/1FWKysCs01WxM31-biZV9OEvaLy84I8td/view?usp=sharing. Please download it and place it in this folder before running the grading script.
