@@ -16,8 +16,7 @@ import config
 
 CLASSES = ["cardboard", "glass", "metal", "paper", "plastic", "trash"]
 
-if not list_of_img_paths:
-        return []
+
 # ── Transform for inference (no augmentation) ─────────────────────────────────
 _infer_tf = transforms.Compose([
     transforms.Resize((config.resize_y, config.resize_x)),
