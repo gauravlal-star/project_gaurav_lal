@@ -82,7 +82,7 @@ def run_training(model_choice="both"):
         train_model(resnet_model, config.epochs,
                     train_loader, loss_fn, optimizer_b,
                     val_loader=val_loader, model_name="resnet50")
-        ckpt = os.path.join(config.checkpoint_dir, "best_resnet50.pth")
+        ckpt = os.path.join(config.checkpoint_dir, "final_weights.pth")
         resnet_model.load_state_dict(
             torch.load(ckpt, map_location=config.device))
         evaluate_on_test(resnet_model, test_loader, "resnet50")
@@ -113,7 +113,7 @@ if __name__ == "__main__":
         # Quick inference without training
         from model import build_resnet50
         m = build_resnet50(num_classes=config.num_classes)
-        ckpt = os.path.join(config.checkpoint_dir, "best_resnet50.pth")
+        ckpt = os.path.join(config.checkpoint_dir, "final_weights.pth")
         m.load_state_dict(torch.load(ckpt, map_location=config.device))
         predict_single(m, args.predict)
     else:
