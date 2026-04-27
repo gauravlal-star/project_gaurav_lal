@@ -11,7 +11,7 @@ It features two models:
 
 ```text
 Project_Gaurav_Lal/
-├── _checkpoints/          # Contains the saved model weights (final_weights.pth)
+├── checkpoints/          # Contains the saved model weights (final_weights.pth)
 ├── data/                  # Sample test images organized by class (10 per class)
 │   ├── cardboard/
 │   ├── glass/
