@@ -31,13 +31,14 @@ Project_Gaurav_Lal/
 nstallation Instructions
 1. Clone the repository:
 Open your terminal or command prompt and run:
-
+```text
 Bash
 git clone [https://github.com/gauravlal-star/Project_Gaurav_Lal.git](https://github.com/gauravlal-star/Project_Gaurav_Lal.git)
 cd Project_Gaurav_Lal
+```
 2. Create a Virtual Environment:
 It is highly recommended to use a virtual environment to prevent library conflicts. Run the following command to create one named venv:
-
+```text
 Bash
 python -m venv venv
 3. Activate the Virtual Environment:
@@ -55,14 +56,15 @@ On Windows (PowerShell):
 PowerShell
 venv\Scripts\Activate.ps1
 (You should now see (venv) at the start of your terminal line).
-
+```
 4. Install the Required Dependencies:
 With the virtual environment activated, install PyTorch and the required data science libraries using pip:
-
+```text
 Bash
 pip install torch torchvision
 pip install matplotlib pillow scikit-learn seaborn numpy
-🚀 Execution Instructions
+```
+Execution Instructions
 This project is highly modular and includes a main.py file with command-line arguments for easy execution. Make sure your virtual environment is activated before running these commands!
 
 1. Running Inference (Testing the Model)
