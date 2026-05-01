@@ -71,8 +71,9 @@ This project is highly modular and includes a main.py file with command-line arg
 To test the pre-trained ResNet50 model on a single unseen image, use the --predict flag followed by the path to the image.
 
 Example using an image from the provided data folder:
-
+```text
 Bash
 python main.py --predict data/glass/glass1.jpg
+```
 (This will output the predicted class and an ASCII confidence bar chart directly in the terminal).ata/glass/glass1.jpg
 (This will output the predicted class and an ASCII confidence bar chart directly in the terminal).
