@@ -348,7 +348,7 @@ ResNet50 Backbone (ImageNet pretrained)
 Open a terminal and run:
 ```bash
 git clone https://github.com/gauravlal-star/project_gaurav_lal.git
-cd Project_Gaurav_Lal
+cd project_gaurav_lal
 ```
 
 ### Step 2 — Create a virtual environment
