@@ -83,12 +83,8 @@ Both models **exceeded** the project's target of 75–80% validation accuracy. T
 project_gaurav_lal/
 │
 ├── checkpoints/                   # Saved model weights
-│   ├── best_custom_cnn.pth        # Best weights for the custom CNN
-│   ├── best_resnet50.pth          # Best weights for ResNet50 (FINAL MODEL)
-│   ├── history_custom_cnn.png     # Training curves — custom CNN
-│   ├── history_resnet50.png       # Training curves — ResNet50
-│   ├── confusion_custom_cnn.png   # Confusion matrix — custom CNN
-│   └── confusion_resnet50.png     # Confusion matrix — ResNet50
+│   ├── final_weights.pth          # Best weights for the custom CNN
+
 │
 ├── data/                          # 10 sample images per class (60 total)
 │   ├── cardboard/                 # e.g. cardboard1.jpg … cardboard10.jpg
