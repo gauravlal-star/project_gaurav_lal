@@ -347,7 +347,7 @@ ResNet50 Backbone (ImageNet pretrained)
 ### Step 1 — Clone the repository
 Open a terminal and run:
 ```bash
-git clone https://github.com/gauravlal-star/Project_Gaurav_Lal.git
+git clone https://github.com/gauravlal-star/project_gaurav_lal.git
 cd Project_Gaurav_Lal
 ```
 
